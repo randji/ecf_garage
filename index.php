@@ -14,20 +14,28 @@
         <div class="titre_entreprise">Garage V.Garrot</div>
         <div class="navbar">
             <ul class="liste">
-                <li class="element"> <a href="reparation_carrosserie.php">Réparation carrosserie</a></li>
-                <li class="element"> <a href="">Mécanique des voitures</a></li>
-                <li class="element"><a href="">Entretien régulier</a></li>
-                <li class="element"><a href="">Vente de véhicule d'occasion</a></li>
+                <li> <a href="reparation_carrosserie.php" class="element">Réparation carrosserie</a></li>
+                <li> <a href="" class="element">Mécanique des voitures</a></li>
+                <li><a href="" class="element">Entretien régulier</a></li>
+                <li><a href="" class="element">Vente de véhicule d'occasion</a></li>
             </ul>
         </div>
     </header>
     <main class="main">
-        <div class="logo">
-            <img src="img/logogarage.png" alt="logo garage" width="568px" height="255px">
+        <div class="présentation">
+            <div class="logo">
+                <img src="img/logogarage.png" alt="logo garage" width="568px" height="255px">
+            </div>
+            <div class="phrase">
+                <h2>"Laissez votre voiture <br> entre de bonnes mains"</h2>
+            </div>
         </div>
-        <div class="phrase">
-            <h2>"Laissez votre voiture <br> entre de bonnes mains"</h2>
+
+        <div class="temoignage">
+            <h3>Anne</h3>
+            <p> Bonne acceuil, équipe très professionnel</p>
         </div>
+        
     </main>
     <footer>
         <a href="Tel:0112547585" class="telephone">tél : 01 12 54 75 85</a>
