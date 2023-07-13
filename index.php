@@ -14,10 +14,10 @@
         <div class="titre_entreprise">Garage V.Garrot</div>
         <div class="navbar">
             <ul class="liste">
-                <li class="element">Réparation carrosserie</li>
-                <li class="element"> Mécanique des voitures</li>
-                <li class="element">Entretien régulier</li>
-                <li class="element">Vente de véhicule d'occasion</li>
+                <li class="element"> <a href="">Réparation carrosserie</a></li>
+                <li class="element"> <a href="">Mécanique des voitures</a></li>
+                <li class="element"><a href="">Entretien régulier</a></li>
+                <li class="element"><a href="">Vente de véhicule d'occasion</a></li>
             </ul>
         </div>
     </header>
