@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.titre_entreprise {
+    width: 100%;
+    height: 121px;
+    background-color: #0E374B;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+}
+.navbar{
+    background-color: #E48433 ;
+    width: 100%;
+    height: 75px;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.4);
+  
+    
+}
+.liste{
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.element{
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'montserrat';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 577px;
+}
+.logo{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+.phrase{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'montserrat';
+    color: #6B797A;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+
+}
+footer{
+    background-color: #0E374B;
+    color: white;
+    width: 100%;
+    height: 126px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.horaire{
+    display: flex;
+    font-family: 'montserrat';
+    justify-content: center;
+    align-items: center;
+}
+.element_horaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.telephone{
+    background-color: #E48433 ;
+    font-family: 'montserrat';
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.formulaire{
+    background-color: #E48433 ;
+    font-family: 'montserrat';
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
