@@ -53,32 +53,32 @@
     height: 577px;
 }
 
-.présentation{
-    display: inline-block;
-    width: 50vh;
-    height: 100%;
-}
-.temoignage{
-    display: inline-block;
-    width: 50vh;
-    height: 100%;
-}
+
+
 .logo{
-    
+    display: inline;
+    width: 50%;
     text-align: center;
     align-items: center;
 }
 .phrase{
-   
+    display: inline;
+    width: 50%;
     font-size: 30px;
     font-family: 'montserrat';
     color: #6B797A;
     font-weight: bold;
     text-align: center;
     align-items: center;
-
-
 }
+
+.temoignage{
+    display: flex;
+    background-color: #E48433 ;
+    width: 100%;
+    font-family: 'montserrat';
+}
+
 footer{
     background-color: #0E374B;
     color: white;
