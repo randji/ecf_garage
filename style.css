@@ -72,12 +72,48 @@
     align-items: center;
 }
 
+.client{
+    color: #6B797A;
+    font-family: 'monteserrat';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.conteneurtitre{
+    text-align: center;
+
+}
+.titreclient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #0E374B;
+    color: white;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.4);
+}
+.nomclient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.commentclient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
 .temoignage{
     display: flex;
-    background-color: #E48433 ;
-    width: 100%;
-    font-family: 'montserrat';
+    justify-content: space-around;
 }
+
 
 footer{
     background-color: #0E374B;
@@ -109,10 +145,47 @@ footer{
     padding: 10px 20px;
     border-radius: 50px;
 }
-.formulaire{
+.bouton{
     background-color: #E48433 ;
     font-family: 'montserrat';
     color: white;
     padding: 10px 20px;
     border-radius: 50px;
 }
+
+
+
+/* formulaire */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 30px;
+    font-family: 'monteserrat';
+}
+
+.modal-content {
+    background-color: #E48433;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 7px 9px 5px rgba(0, 0, 0, 0.4);
+
+}
+.message{
+    width: 300px;
+    height: 100px;
+}
+
+

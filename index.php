@@ -9,18 +9,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Garage V.Garrot</title>
 </head>
-<body>
-    <header>
-        <div class="titre_entreprise">Garage V.Garrot</div>
-        <div class="navbar">
-            <ul class="liste">
-                <li> <a href="reparation_carrosserie.php" class="element">Réparation carrosserie</a></li>
-                <li> <a href="" class="element">Mécanique des voitures</a></li>
-                <li><a href="" class="element">Entretien régulier</a></li>
-                <li><a href="" class="element">Vente de véhicule d'occasion</a></li>
-            </ul>
-        </div>
-    </header>
+
+<?php
+    require_once ('template/header.php');
+?>
+
+
     <main class="main">
         
         <div class="logo">
@@ -30,24 +24,29 @@
             <h2>"Laissez votre voiture <br> entre de bonnes mains"</h2>
         </div>  
     </main>
-    <div class="temoignage">
-            <h1>TEMOIGNAGE</h1>
-            <h3>Anne</h3>
-            <p> Bonne acceuil, équipe très professionnel</p>
-    </div>
-    <footer>
-        <a href="Tel:0112547585" class="telephone">tél : 01 12 54 75 85</a>
-        <div class="horaire">
-            <ul class="list_horaire">
-                <li class="element_horaire">HORAIRE</li>
-                <li class="element_horaire">lundi au samedi : 9h-18h</li>
-                <li class="element_horaire">dimanche : Fermé</li>
-            </ul>
+    <div class="client">
+        <div class="conteneurtitre">
+            <h1 class="titreclient">TEMOIGNAGE</h1>
         </div>
-        <form action="" method="post" class="formulaire">
-            <button type="submit">formulaire contact</button>
-        </form>
-    </footer>
+        <div class="temoignage">
+            <section>
+                <h3 class="nomclient">Anne</h3>
+                <p class="commentclient"> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quaerat doloribus quas exercitationem nisi esse!"</p>
+            </section>
+            <section>
+                <h3 class="nomclient">Pierre</h3>
+                <p class="commentclient"> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste inventore deserunt, itaque officiis officia illo?"</p>
+            </section>
+            <section>
+                <h3 class="nomclient">Claude</h3>
+                <p class="commentclient"> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum inventore doloribus perspiciatis ratione, sunt nisi!"</p>
+            </section>
+        </div>          
+    </div>
+
+
     
-</body>
-</html>
+    <?php
+        require_once ('template/footer.php')
+    ?>
+   
